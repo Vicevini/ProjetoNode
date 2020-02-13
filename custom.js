@@ -1,3 +1,8 @@
+//Menu mobile
+$(document).ready(function() {
+    $(`.sidenav-trigger`).sidenav();
+});
+
 //Organizar rolagem da navbar para alterar background color
 
 $(window).on("scroll", function() {

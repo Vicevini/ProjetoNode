@@ -1,174 +1,175 @@
-html{
-  height: 100%;
+html {
+    height: 100%;
 }
-body{
-  height: 100%;
+
+body {
+    height: 100%;
 }
 
 .bloco {
-  min-height: 100%;
-  padding-top: 94px; 
+    min-height: 100%;
+    padding-top: 94px;
 }
+
 
 /* Logo */
 
-.logo_text{
-  font-size: 0;
-  margin: 0;
+.logo_text {
+    font-size: 0;
+    margin: 0;
 }
 
-.logo_img{
-  width: 100px;
-  margin-top: 15px; 
+.logo_img {
+    width: 100px;
+    margin-top: 15px;
 }
+
 
 /* Barra de navegação */
-nav{
-  color: #FFF;
-  background-color: #ee6e73;
-  width: 100%;
-  height: 94px;
-  line-height: 56px; 
+
+nav {
+    color: #FFF;
+    background-color: #ee6e73;
+    width: 100%;
+    height: 94px;
+    line-height: 56px;
 }
 
-nav.nav-extended .nav-wrapper{
-  min-height: 94px;
-  height: auto;
+nav.nav-extended .nav-wrapper {
+    min-height: 94px;
+    height: auto;
 }
 
-.navbar-fixed{
-  position: absolute; 
-  height:  94px;
-  z-index: 997;
+.navbar-fixed {
+    position: absolute;
+    height: 94px;
+    z-index: 997;
 }
 
 nav i,
-nav [class^="mdi-"], nav [class*="mdi-"],
-nav i.material-icons{
-  display: block;
-  font-size: 44px;
-  height: 94px;
-  line-height: 94px; 
+nav [class^="mdi-"],
+nav [class*="mdi-"],
+nav i.material-icons {
+    display: block;
+    font-size: 24px;
+    height: 94px;
+    line-height: 94px;
 }
 
-.side-nav{
-  background: url('./img/textura2.png'); 
+.side-nav {
+    background: url('./img/textura2.png');
 }
 
-.side-nav li>a{
-  color: #FFF;
-  font-weight: 100;
+.side-nav li>a {
+    color: #FFF;
+    font-weight: 100;
 }
+
 
 /* Menu */
 
-.navbar{
-  background-color:  transparent; 
-  
+.navbar {
+    background-color: transparent;
 }
 
-.navbar ul a:hover{
-  background-color: transparent; 
-  color: #2dc7d0; 
+.navbar ul a:hover {
+    background-color: transparent;
+    color: #2dc7d0;
 }
 
-.nav-color{
-  background-color: rgba(0, 0, 0, 0.7);
-  transition: background 0.5s linear; 
+.nav-color {
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: background 0.5s linear;
 }
+
 
 /* Color */
 
-.blue-logo{
-  background-color:#2dc7d0; 
+.blue-logo {
+    background-color: #2dc7d0;
 }
+
 
 /* Home */
 
-.home{
-  animation: mudarbg 20s infinite;
-  background-image: url('./img/bg.jpg');
-  background-repeat: no-repeat;
-  background-size: cover; 
+.home {
+    animation: mudarbg 20s infinite;
+    background-image: url('./img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .banner h2 {
-  font-size: 2.5rem;
-  font-weight: 900;
-  text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
-.banner p{
-  font-size: 1.2rem;
-  line-height: 1.8rem;
+.banner p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
 }
 
 
 /* Animação */
 
 @keyframes mudarbg {
-  40%{
-    background-image: url('./img/bg2.jpg');
-  }
-
-  80%{
-    background-image: url('./img/bg3.jpg');
-  }
-
-  100%{
-    background-image: url('./img/bg.jpg');
-  }
+    40% {
+        background-image: url('./img/bg2.jpg');
+    }
+    80% {
+        background-image: url('./img/bg3.jpg');
+    }
+    100% {
+        background-image: url('./img/bg.jpg');
+    }
 }
+
+
 /* Media */
 
-@media only screen and (max-widht: 480px){
-  
+@media only screen and (max-widht: 480px) {}
+
+@media only screen and (min-widht: 601px) {
+    .banner {
+        padding-top: 4.5rem;
+    }
+    .banner h2 {
+        font-size: 4rem;
+    }
 }
 
-@media only screen and (min-widht: 601px){
-  .banner{
-    padding-top: 4.5rem; 
-  }
-  .banner h2{
-    
-    font-size: 4rem; 
-  }
+@media only screen and (min-widht: 993px) {
+    .banner {
+        padding-top: 5rem;
+    }
+    .banner h2 {
+        font-size: 5rem;
+    }
 }
 
-@media only screen and (min-widht: 993px){
-  .banner{
-    padding-top: 5rem; 
-  }
-
-  .banner h2{
-    
-    font-size: 5rem; 
-  }
-  
-}
 
 /* Sobre*/
 
-.sobre{
-  background-image: url('./img/textura1.png');
-
+.sobre {
+    background-image: url('./img/textura1.png');
 }
 
-.sobre h2{
-  font-size: 2rem;
-  color: #212121;
-  text-transform: uppercase;
+.sobre h2 {
+    font-size: 2rem;
+    color: #212121;
+    text-transform: uppercase;
 }
 
-.sobre h2::after{
-  content: '';
-  display: block;
-  width: 100px;
-  border-top: 1px solid #2dc7d0;
-  margin: 15px auto;
+.sobre h2::after {
+    content: '';
+    display: block;
+    width: 100px;
+    border-top: 1px solid #2dc7d0;
+    margin: 15px auto;
 }
 
-.sobre p{
-  line-height: 1.8rem;
-  text-align: justify;
+.sobre p {
+    line-height: 1.8rem;
+    text-align: justify;
 }
