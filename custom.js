@@ -1,6 +1,6 @@
 //Menu mobile
 $(document).ready(function() {
-    $(`.sidenav-trigger`).sidenav();
+    $(".sidenav-trigger").sidenav();
 });
 
 //Organizar rolagem da navbar para alterar background color

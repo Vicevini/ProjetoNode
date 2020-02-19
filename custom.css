@@ -56,11 +56,11 @@ nav i.material-icons {
     line-height: 94px;
 }
 
-.side-nav {
+.sidenav {
     background: url('./img/textura2.png');
 }
 
-.side-nav li>a {
+.sidenav li>a {
     color: #FFF;
     font-weight: 100;
 }
