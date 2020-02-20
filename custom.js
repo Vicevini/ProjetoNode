@@ -5,6 +5,12 @@ $(document).ready(function() {
     $(".scrollspy").scrollSpy({
         scrollOffset: 0
     });
+
+    //Carousel
+    $(".carousel.carousel-slider").carousel({
+        fullWidth: true,
+        indicators: true
+    });
 });
 
 //Organizar rolagem da navbar para alterar background color

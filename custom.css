@@ -70,6 +70,7 @@ nav i.material-icons {
 
 .navbar {
     background-color: transparent;
+    transition: background 0.5s linear;
 }
 
 .navbar ul a:hover {
@@ -137,6 +138,9 @@ nav i.material-icons {
     .banner h2 {
         font-size: 4rem;
     }
+    .container {
+        width: 85%;
+    }
 }
 
 @media only screen and (min-widht: 993px) {
@@ -145,6 +149,9 @@ nav i.material-icons {
     }
     .banner h2 {
         font-size: 5rem;
+    }
+    .container {
+        width: 90%;
     }
 }
 
@@ -172,4 +179,24 @@ nav i.material-icons {
 .sobre p {
     line-height: 1.8rem;
     text-align: justify;
+}
+
+.sobre .missao-visao-valores {
+    padding: 20px 0;
+    margin-top: 35px;
+}
+
+.sobre .missao-visao-valores .icon {
+    color: #FFF;
+}
+
+.sobre .missao-visao-valores h3 {
+    font-size: 1.5rem;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.sobre .missao-visao-valores p {
+    color: #FFF;
+    text-align: center;
 }
