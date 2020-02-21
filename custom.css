@@ -65,6 +65,27 @@ nav i.material-icons {
     font-weight: 100;
 }
 
+.row {
+    margin-bottom: 0;
+}
+
+.tabs {
+    background-color: #222;
+}
+
+.tabs .tab a {
+    color: #FFF;
+}
+
+.tabs .tab a:hover,
+.tabs .tab a.active {
+    color: #2dc7d0;
+}
+
+.tabs .indicator {
+    background-color: #2dc7d0;
+}
+
 
 /* Menu */
 
@@ -235,4 +256,18 @@ nav i.material-icons {
 .servicos .card-content h3 {
     color: rgb(2, 2, 2);
     text-align: center;
+}
+
+.servicos .modal-content p {
+    color: rgb(2, 2, 2);
+    text-align: center;
+}
+
+.servicos .modal-content h5 {
+    color: rgb(2, 2, 2);
+    text-align: left;
+}
+
+.servicos .btn-horario {
+    padding-bottom: 20px;
 }

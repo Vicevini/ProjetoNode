@@ -11,6 +11,11 @@ $(document).ready(function() {
         fullWidth: true,
         indicators: true
     });
+
+    //Modal
+    $(".modal").modal();
+    //Tabs
+    $("ul.tabs").tabs();
 });
 
 //Organizar rolagem da navbar para alterar background color
