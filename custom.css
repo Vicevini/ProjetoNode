@@ -271,3 +271,19 @@ nav i.material-icons {
 .servicos .btn-horario {
     padding-bottom: 20px;
 }
+
+.servicos .modal-content table th {
+    color: rgb(2, 2, 2);
+}
+
+.servicos .modal-content table td {
+    color: rgb(2, 2, 2);
+}
+
+.servicos .modal-content th {
+    color: rgb(2, 2, 2);
+}
+
+.servicos .modal-content td {
+    color: rgb(2, 2, 2);
+}
