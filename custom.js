@@ -16,6 +16,16 @@ $(document).ready(function() {
     $(".modal").modal();
     //Tabs
     $("ul.tabs").tabs();
+    //Esconder Menu
+    $(".hide-menu").click(function() {
+        $(".button-colapse").sidenav("hide");
+    });
+
+    function autoplay() {
+        $(".carousel").carousel("next");
+        setTimeout(autoplay, 4500);
+    }
+    autoplay();
 });
 
 //Organizar rolagem da navbar para alterar background color

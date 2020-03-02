@@ -181,6 +181,28 @@ nav i.material-icons {
 }
 
 
+/* Título e parágrafo */
+
+.titulo {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.paragrafo {
+    line-height: 1.8rem;
+    color: #FFF;
+}
+
+.titulo::after {
+    content: '';
+    display: block;
+    width: 100px;
+    border-top: 1px solid #2dc7d0;
+    margin: 15px auto;
+}
+
+
 /* Sobre*/
 
 .sobre {
@@ -327,4 +349,38 @@ nav i.material-icons {
 
 .unidades .card-content h3 {
     color: rgb(2, 2, 2);
+}
+
+
+/* Contato*/
+
+.contato {
+    background-image: url(/img/textura1.png);
+}
+
+.contato h4 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.contato .mapa {
+    min-height: 560px;
+}
+
+.contato .mapa iframe {
+    width: 100%;
+    min-height: 560px;
+    border: none;
+}
+
+.contato .informacoes {
+    background-image: url(img/textura2.png);
+    min-height: 560px;
+    padding: 30px;
+}
+
+.contato .formulario {
+    min-height: 560px;
+    padding: 30px;
 }
