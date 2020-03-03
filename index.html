@@ -580,7 +580,7 @@
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     </p>
 
-                    <form action="" method="post">
+                    <form action="enviar-email.php" method="post">
                         <div class="input-field">
                             <input type="text" name="name" id="name">
                             <label for="name">Seu nome: </label>
@@ -597,7 +597,7 @@
                         </div>
 
                         <div class="input-field">
-                            <textarea class="materialize-textarea" id="message" cols="30" rows="10"></textarea>
+                            <textarea class="materialize-textarea" id="message" name="message" cols="30" rows="10"></textarea>
                             <label for="message">Mensagem </label>
                         </div>
 
@@ -688,6 +688,16 @@
 
 
     <script src="custom.js"></script>
+
+    <script language="php">
+        if (isset($_GET['status'])):
+            if ($_GET['status'] == "sucesso"):
+                echo "<script>Materialize.toast('Enviado com sucesso!', 4000);
+    </script>"; else: echo "
+    <script>
+        Materialize.toast('Erro ao enviar', 4000);
+    </script>"; endif; endif;
+
 </body>
 
 </html>
